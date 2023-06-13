@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\EjerciciosPolimorfismo",
-    "\\EjerciciosPolimorfismo\\Pantalla",
-    "\\Repaso",
-    "\\Repaso\\Consola"
+    "\\EjerciciosPolimorfismo\\Consola",
+    "\\PractipaParcial",
+    "\\PractipaParcial\\Clases"
   ],
+  "SelectedNode": "\\PractipaParcial\\SistemaBiblioteca.sln",
   "PreviewInSolutionExplorer": false
 }
