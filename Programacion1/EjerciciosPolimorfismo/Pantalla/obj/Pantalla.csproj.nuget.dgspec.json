@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\Pantalla\\Pantalla.csproj": {}
+    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\Pantalla\\Pantalla.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj": {
+    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj",
+        "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj",
         "projectName": "LibreriaClases",
-        "projectPath": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj",
-        "packagesPath": "C:\\Users\\tinch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\obj\\",
+        "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj",
+        "packagesPath": "C:\\Users\\brcom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\LibreriaClases\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tinch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brcom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\Pantalla\\Pantalla.csproj": {
+    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\Pantalla\\Pantalla.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\Pantalla\\Pantalla.csproj",
+        "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\Pantalla\\Pantalla.csproj",
         "projectName": "Pantalla",
-        "projectPath": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\Pantalla\\Pantalla.csproj",
-        "packagesPath": "C:\\Users\\tinch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\Pantalla\\obj\\",
+        "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\Pantalla\\Pantalla.csproj",
+        "packagesPath": "C:\\Users\\brcom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\Pantalla\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tinch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brcom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj": {
-                "projectPath": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj"
+              "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj": {
+                "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj"
               }
             }
           }
@@ -117,7 +117,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
