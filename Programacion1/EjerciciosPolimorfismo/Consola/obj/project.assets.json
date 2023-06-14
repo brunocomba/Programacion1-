@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "LibreriaClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LibreriaClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibreriaClases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibreriaClases/1.0.0": {
+      "type": "project",
+      "path": "../LibreriaClases/LibreriaClases.csproj",
+      "msbuildProject": "../LibreriaClases/LibreriaClases.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "LibreriaClases >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tinch\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\Consola\\Consola.csproj",
+      "projectName": "Consola",
+      "projectPath": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\Consola\\Consola.csproj",
+      "packagesPath": "C:\\Users\\tinch\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\Consola\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tinch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj": {
+              "projectPath": "C:\\Users\\tinch\\source\\repos\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
