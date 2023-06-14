@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            menuStrip1 = new MenuStrip();
+            MenuStrip menuStrip1;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuInicio));
             toolStripMenuItem1 = new ToolStripMenuItem();
             agereToolStripMenuItem = new ToolStripMenuItem();
             rawedsToolStripMenuItem = new ToolStripMenuItem();
@@ -36,106 +37,87 @@
             fasToolStripMenuItem = new ToolStripMenuItem();
             safToolStripMenuItem = new ToolStripMenuItem();
             fasfasToolStripMenuItem = new ToolStripMenuItem();
-            label1 = new Label();
             sasdsaToolStripMenuItem = new ToolStripMenuItem();
             asdasdToolStripMenuItem = new ToolStripMenuItem();
             asdadToolStripMenuItem = new ToolStripMenuItem();
+            label1 = new Label();
+            menuStrip1 = new MenuStrip();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Dock = DockStyle.Left;
+            resources.ApplyResources(menuStrip1, "menuStrip1");
             menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, scasdsadToolStripMenuItem, sasdsaToolStripMenuItem, asdasdToolStripMenuItem, asdadToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.LayoutStyle = ToolStripLayoutStyle.VerticalStackWithOverflow;
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(61, 450);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
             toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { agereToolStripMenuItem, rawedsToolStripMenuItem });
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(113, 19);
-            toolStripMenuItem1.Text = "ppppp";
+            resources.ApplyResources(toolStripMenuItem1, "toolStripMenuItem1");
             toolStripMenuItem1.Click += toolStripMenuItem1_Click;
             // 
             // agereToolStripMenuItem
             // 
             agereToolStripMenuItem.Name = "agereToolStripMenuItem";
-            agereToolStripMenuItem.Size = new Size(180, 22);
-            agereToolStripMenuItem.Text = "agere";
+            resources.ApplyResources(agereToolStripMenuItem, "agereToolStripMenuItem");
             // 
             // rawedsToolStripMenuItem
             // 
             rawedsToolStripMenuItem.Name = "rawedsToolStripMenuItem";
-            rawedsToolStripMenuItem.Size = new Size(180, 22);
-            rawedsToolStripMenuItem.Text = "raweds";
+            resources.ApplyResources(rawedsToolStripMenuItem, "rawedsToolStripMenuItem");
             // 
             // scasdsadToolStripMenuItem
             // 
             scasdsadToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { fasToolStripMenuItem, fasfasToolStripMenuItem });
             scasdsadToolStripMenuItem.Name = "scasdsadToolStripMenuItem";
-            scasdsadToolStripMenuItem.Size = new Size(113, 19);
-            scasdsadToolStripMenuItem.Text = "fsaf";
+            resources.ApplyResources(scasdsadToolStripMenuItem, "scasdsadToolStripMenuItem");
             // 
             // fasToolStripMenuItem
             // 
             fasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { safToolStripMenuItem });
             fasToolStripMenuItem.Name = "fasToolStripMenuItem";
-            fasToolStripMenuItem.Size = new Size(180, 22);
-            fasToolStripMenuItem.Text = "ffasfs";
+            resources.ApplyResources(fasToolStripMenuItem, "fasToolStripMenuItem");
             // 
             // safToolStripMenuItem
             // 
             safToolStripMenuItem.Name = "safToolStripMenuItem";
-            safToolStripMenuItem.Size = new Size(89, 22);
-            safToolStripMenuItem.Text = "saf";
+            resources.ApplyResources(safToolStripMenuItem, "safToolStripMenuItem");
             // 
             // fasfasToolStripMenuItem
             // 
             fasfasToolStripMenuItem.Name = "fasfasToolStripMenuItem";
-            fasfasToolStripMenuItem.Size = new Size(180, 22);
-            fasfasToolStripMenuItem.Text = "fasfas";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(277, 30);
-            label1.TabIndex = 1;
-            label1.Text = "aaaaaaaaaaaaaaaaaaaaaaaa";
+            resources.ApplyResources(fasfasToolStripMenuItem, "fasfasToolStripMenuItem");
             // 
             // sasdsaToolStripMenuItem
             // 
             sasdsaToolStripMenuItem.Name = "sasdsaToolStripMenuItem";
-            sasdsaToolStripMenuItem.Size = new Size(48, 19);
-            sasdsaToolStripMenuItem.Text = "sasdsa";
+            resources.ApplyResources(sasdsaToolStripMenuItem, "sasdsaToolStripMenuItem");
             // 
             // asdasdToolStripMenuItem
             // 
             asdasdToolStripMenuItem.Name = "asdasdToolStripMenuItem";
-            asdasdToolStripMenuItem.Size = new Size(48, 19);
-            asdasdToolStripMenuItem.Text = "asdasd";
+            resources.ApplyResources(asdasdToolStripMenuItem, "asdasdToolStripMenuItem");
             // 
             // asdadToolStripMenuItem
             // 
             asdadToolStripMenuItem.Name = "asdadToolStripMenuItem";
-            asdadToolStripMenuItem.Size = new Size(48, 19);
-            asdadToolStripMenuItem.Text = "asdad";
+            resources.ApplyResources(asdadToolStripMenuItem, "asdadToolStripMenuItem");
+            // 
+            // label1
+            // 
+            resources.ApplyResources(label1, "label1");
+            label1.Name = "label1";
             // 
             // MenuInicio
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             Name = "MenuInicio";
-            Text = "MenuInicio";
             Load += MenuInicio_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
