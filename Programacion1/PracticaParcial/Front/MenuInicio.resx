@@ -128,74 +128,104 @@
     <value>Stretch</value>
   </data>
   <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+    <value>Left</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="agereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="agereToolStripMenuItem.Text" xml:space="preserve">
-    <value>agere</value>
-  </data>
-  <data name="rawedsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="rawedsToolStripMenuItem.Text" xml:space="preserve">
-    <value>raweds</value>
+  <data name="toolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 19</value>
+    <value>113, 24</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
-    <value>ppppp</value>
-  </data>
-  <data name="safToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 22</value>
-  </data>
-  <data name="safToolStripMenuItem.Text" xml:space="preserve">
-    <value>saf</value>
-  </data>
-  <data name="fasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="fasToolStripMenuItem.Text" xml:space="preserve">
-    <value>ffasfs</value>
+    <value>MENU</value>
   </data>
   <data name="fasfasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>193, 22</value>
   </data>
   <data name="fasfasToolStripMenuItem.Text" xml:space="preserve">
-    <value>fasfas</value>
+    <value>Agregar nuevo libro</value>
+  </data>
+  <data name="eliminarLibroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="eliminarLibroToolStripMenuItem.Text" xml:space="preserve">
+    <value>Eliminar libro</value>
+  </data>
+  <data name="modificarLibroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="modificarLibroToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modificar libro</value>
+  </data>
+  <data name="listaLibrosDisponiblesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="listaLibrosDisponiblesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lista libros disponibles</value>
+  </data>
+  <data name="scasdsadToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="scasdsadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 19</value>
+    <value>113, 19</value>
   </data>
   <data name="scasdsadToolStripMenuItem.Text" xml:space="preserve">
-    <value>fsaf</value>
+    <value>Libros</value>
+  </data>
+  <data name="agregarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="agregarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="eliminarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="eliminarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="modificarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="modificarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="listaClientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="listaClientesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lista Clientes</value>
   </data>
   <data name="sasdsaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 19</value>
+    <value>113, 19</value>
   </data>
   <data name="sasdsaToolStripMenuItem.Text" xml:space="preserve">
-    <value>sasdsa</value>
+    <value>Clientes</value>
+  </data>
+  <data name="agregarToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="agregarToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Agregar </value>
+  </data>
+  <data name="devolucionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="devolucionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Devolucion</value>
   </data>
   <data name="asdasdToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 19</value>
+    <value>113, 19</value>
   </data>
   <data name="asdasdToolStripMenuItem.Text" xml:space="preserve">
-    <value>asdasd</value>
-  </data>
-  <data name="asdadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 19</value>
-  </data>
-  <data name="asdadToolStripMenuItem.Text" xml:space="preserve">
-    <value>asdad</value>
+    <value>Prestamos</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>739, 0</value>
+    <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 450</value>
+    <value>126, 450</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
@@ -214,36 +244,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15.75pt</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 30</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>aaaaaaaaaaaaaaaaaaaaaaaa</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -264,34 +264,10 @@
   <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;agereToolStripMenuItem.Name" xml:space="preserve">
-    <value>agereToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;agereToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rawedsToolStripMenuItem.Name" xml:space="preserve">
-    <value>rawedsToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;rawedsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;scasdsadToolStripMenuItem.Name" xml:space="preserve">
     <value>scasdsadToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;scasdsadToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fasToolStripMenuItem.Name" xml:space="preserve">
-    <value>fasToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;fasToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;safToolStripMenuItem.Name" xml:space="preserve">
-    <value>safToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;safToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;fasfasToolStripMenuItem.Name" xml:space="preserve">
@@ -300,10 +276,52 @@
   <data name="&gt;&gt;fasfasToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;eliminarLibroToolStripMenuItem.Name" xml:space="preserve">
+    <value>eliminarLibroToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;eliminarLibroToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modificarLibroToolStripMenuItem.Name" xml:space="preserve">
+    <value>modificarLibroToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;modificarLibroToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listaLibrosDisponiblesToolStripMenuItem.Name" xml:space="preserve">
+    <value>listaLibrosDisponiblesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;listaLibrosDisponiblesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;sasdsaToolStripMenuItem.Name" xml:space="preserve">
     <value>sasdsaToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;sasdsaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;agregarToolStripMenuItem.Name" xml:space="preserve">
+    <value>agregarToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;agregarToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eliminarToolStripMenuItem.Name" xml:space="preserve">
+    <value>eliminarToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;eliminarToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modificarToolStripMenuItem.Name" xml:space="preserve">
+    <value>modificarToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;modificarToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listaClientesToolStripMenuItem.Name" xml:space="preserve">
+    <value>listaClientesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;listaClientesToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;asdasdToolStripMenuItem.Name" xml:space="preserve">
@@ -312,10 +330,16 @@
   <data name="&gt;&gt;asdasdToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;asdadToolStripMenuItem.Name" xml:space="preserve">
-    <value>asdadToolStripMenuItem</value>
+  <data name="&gt;&gt;agregarToolStripMenuItem1.Name" xml:space="preserve">
+    <value>agregarToolStripMenuItem1</value>
   </data>
-  <data name="&gt;&gt;asdadToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;agregarToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;devolucionToolStripMenuItem.Name" xml:space="preserve">
+    <value>devolucionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;devolucionToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

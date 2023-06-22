@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\PracticaParcial",
+    "\\PracticaParcial\\Front",
     "\\PracticaParcial\\LogicaClases"
   ],
-  "SelectedNode": "\\PracticaParcial\\Sistema_PracticaParcial.sln",
+  "SelectedNode": "\\PracticaParcial\\Front\\AltaCliente.cs",
   "PreviewInSolutionExplorer": false
 }

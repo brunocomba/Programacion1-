@@ -36,5 +36,29 @@ namespace Front
         {
 
         }
+
+        private void fasfasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AltaCliente altaCliente = new AltaCliente();
+            altaCliente.Show();
+            this.Hide();
+        }
+
+        private void listaClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void sasdsaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ClientesMenu clientesMenu = new ClientesMenu();
+            clientesMenu.Show();
+            this.Hide();
+        }
     }
 }

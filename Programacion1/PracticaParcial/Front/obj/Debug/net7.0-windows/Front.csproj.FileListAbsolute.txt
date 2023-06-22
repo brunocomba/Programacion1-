@@ -18,3 +18,5 @@ C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Programacion1\Pra
 C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Programacion1\PracticaParcial\Front\obj\Debug\net7.0-windows\Front.pdb
 C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Programacion1\PracticaParcial\Front\obj\Debug\net7.0-windows\Front.genruntimeconfig.cache
 C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Programacion1\PracticaParcial\Front\obj\Debug\net7.0-windows\ref\Front.dll
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Programacion1\PracticaParcial\Front\obj\Debug\net7.0-windows\Front.AltaCliente.resources
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Programacion1\PracticaParcial\Front\obj\Debug\net7.0-windows\Front.ClientesMenu.resources
