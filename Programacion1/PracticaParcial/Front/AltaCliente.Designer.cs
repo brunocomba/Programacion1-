@@ -40,7 +40,7 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(173, 65);
+            txtNombre.Location = new Point(125, 65);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(261, 23);
             txtNombre.TabIndex = 0;
@@ -48,7 +48,7 @@
             // lblNombre
             // 
             lblNombre.AutoSize = true;
-            lblNombre.Location = new Point(98, 73);
+            lblNombre.Location = new Point(41, 73);
             lblNombre.Name = "lblNombre";
             lblNombre.Size = new Size(51, 15);
             lblNombre.TabIndex = 1;
@@ -57,7 +57,7 @@
             // lblDNI
             // 
             lblDNI.AutoSize = true;
-            lblDNI.Location = new Point(98, 170);
+            lblDNI.Location = new Point(41, 165);
             lblDNI.Name = "lblDNI";
             lblDNI.Size = new Size(27, 15);
             lblDNI.TabIndex = 2;
@@ -66,7 +66,7 @@
             // lblApellido
             // 
             lblApellido.AutoSize = true;
-            lblApellido.Location = new Point(98, 116);
+            lblApellido.Location = new Point(41, 116);
             lblApellido.Name = "lblApellido";
             lblApellido.Size = new Size(51, 15);
             lblApellido.TabIndex = 3;
@@ -74,21 +74,21 @@
             // 
             // txtDNI
             // 
-            txtDNI.Location = new Point(173, 162);
+            txtDNI.Location = new Point(125, 157);
             txtDNI.Name = "txtDNI";
             txtDNI.Size = new Size(261, 23);
             txtDNI.TabIndex = 4;
             // 
             // txtApellido
             // 
-            txtApellido.Location = new Point(173, 113);
+            txtApellido.Location = new Point(125, 108);
             txtApellido.Name = "txtApellido";
             txtApellido.Size = new Size(261, 23);
             txtApellido.TabIndex = 5;
             // 
             // btnAregarCliente
             // 
-            btnAregarCliente.Location = new Point(228, 235);
+            btnAregarCliente.Location = new Point(194, 250);
             btnAregarCliente.Name = "btnAregarCliente";
             btnAregarCliente.Size = new Size(94, 26);
             btnAregarCliente.TabIndex = 6;
@@ -110,7 +110,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(607, 486);
+            ClientSize = new Size(539, 462);
             Controls.Add(btnVolver);
             Controls.Add(btnAregarCliente);
             Controls.Add(txtApellido);

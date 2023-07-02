@@ -59,5 +59,10 @@ namespace Logica.Clases
 
         }
 
+        public void removeThisCliente(Cliente clienteABorrar)
+        {
+            ObtenerClientes().Remove(clienteABorrar);
+        }  
+
     }
 }

@@ -36,7 +36,7 @@ namespace Front
         private void btnAregarCliente_Click(object sender, EventArgs e)
         {
 
-            HacemeElAlta(); 
+            HacemeElAlta();
             /*
             Cliente clienteNew = new Cliente();
             clienteNew.dni = int.Parse(txtDNI.Text);

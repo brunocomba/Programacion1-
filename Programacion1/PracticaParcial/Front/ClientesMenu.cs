@@ -45,5 +45,38 @@ namespace Front
             dataGridView1.Refresh();
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Miro cual es el ID seleccionado en la grilla
+            
+            object IdElegido = this.dataGridView1.SelectedCells[0].Value;
+            int idSeleccionado = (int)IdElegido;
+
+           
+            
+
+            Cliente valor_Elegido = (Cliente)dataGridView1.CurrentRow.DataBoundItem;
+
+            if (valor_Elegido != null)
+            {
+                var confirmacion = MessageBox.Show("Seguro que desea eliminar este cliente, con el ID " + idSeleccionado, "ADVERTENCIA", MessageBoxButtons.OKCancel);
+
+                if (confirmacion == DialogResult.OK)
+                {
+                    principal.removeThisCliente(valor_Elegido);
+                }
+                
+            }
+            else
+            {
+                MessageBox.Show("No hay ningun cliente seleccionado");
+            }
+
+            dataGridView1.DataSource = null;
+
+            dataGridView1.DataSource = Principal.ObtenerClientes();
+
+        }
     }
 }

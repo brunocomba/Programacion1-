@@ -42,6 +42,8 @@
             principalBindingSource1 = new BindingSource(components);
             libroFisicoBindingSource = new BindingSource(components);
             button2 = new Button();
+            label1 = new Label();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)clienteBindingSource1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)principalBindingSource3).BeginInit();
@@ -58,10 +60,10 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { dniDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn, apellidoDataGridViewTextBoxColumn });
             dataGridView1.DataSource = clienteBindingSource1;
-            dataGridView1.Location = new Point(80, 37);
+            dataGridView1.Location = new Point(45, 65);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(343, 230);
+            dataGridView1.Size = new Size(550, 264);
             dataGridView1.TabIndex = 0;
             // 
             // dniDataGridViewTextBoxColumn
@@ -104,7 +106,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(80, 324);
+            button1.Location = new Point(45, 360);
             button1.Name = "button1";
             button1.Size = new Size(112, 49);
             button1.TabIndex = 1;
@@ -122,19 +124,41 @@
             // 
             // button2
             // 
-            button2.Location = new Point(304, 324);
+            button2.Location = new Point(660, 400);
             button2.Name = "button2";
-            button2.Size = new Size(119, 49);
+            button2.Size = new Size(91, 38);
             button2.TabIndex = 2;
             button2.Text = "Volver ";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(241, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(114, 32);
+            label1.TabIndex = 3;
+            label1.Text = "CLIENTES";
+            // 
+            // button3
+            // 
+            button3.Location = new Point(212, 363);
+            button3.Name = "button3";
+            button3.Size = new Size(115, 46);
+            button3.TabIndex = 4;
+            button3.Text = "ELIMINAR";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // ClientesMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button3);
+            Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
@@ -150,6 +174,7 @@
             ((System.ComponentModel.ISupportInitialize)principalBindingSource1).EndInit();
             ((System.ComponentModel.ISupportInitialize)libroFisicoBindingSource).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -167,5 +192,7 @@
         private DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn;
         private BindingSource clienteBindingSource1;
         private Button button2;
+        private Label label1;
+        private Button button3;
     }
 }
