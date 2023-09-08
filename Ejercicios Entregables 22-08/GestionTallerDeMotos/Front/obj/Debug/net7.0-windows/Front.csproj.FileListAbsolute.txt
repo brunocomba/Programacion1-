@@ -1,0 +1,52 @@
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.csproj.AssemblyReference.cache
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.Menu.resources
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.csproj.GenerateResource.cache
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.AssemblyInfoInputs.cache
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.AssemblyInfo.cs
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.csproj.CoreCompileInputs.cache
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.exe
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.deps.json
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.runtimeconfig.json
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.dll
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.pdb
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Back.dll
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Back.pdb
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.csproj.CopyComplete
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.dll
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\refint\Front.dll
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.pdb
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.genruntimeconfig.cache
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\ref\Front.dll
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.ListaUtilitarias.resources
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.AltaUtilitaria.resources
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.ModificarUtilitario.resources
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.AltaDeportiva.resources
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.ListaDeportivas.resources
+C:\Users\brcom\source\repos\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.ModificacionDeportiva.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.exe
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.deps.json
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.runtimeconfig.json
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.dll
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Front.pdb
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Back.dll
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\bin\Debug\net7.0-windows\Back.pdb
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.csproj.AssemblyReference.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.Menu.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.AltaUtilitaria.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.ListaUtilitarias.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.ModificarUtilitario.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.AltaDeportiva.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.ListaDeportivas.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.ModificacionDeportiva.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.csproj.GenerateResource.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.AssemblyInfoInputs.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.AssemblyInfo.cs
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.csproj.CoreCompileInputs.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.csproj.CopyComplete
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.dll
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\refint\Front.dll
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.pdb
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\Front.genruntimeconfig.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionTallerDeMotos\Front\obj\Debug\net7.0-windows\ref\Front.dll

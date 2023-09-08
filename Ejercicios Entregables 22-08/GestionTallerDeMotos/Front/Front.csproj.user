@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Moto Utilitaria\ModificarUtilitario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Moto Utilitaria\AltaUtilitaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Motos Deportivas\ModificacionDeportiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Moto Utilitaria\ListaUtilitarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Motos Deportivas\AltaDeportiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Motos Deportivas\ListaDeportivas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

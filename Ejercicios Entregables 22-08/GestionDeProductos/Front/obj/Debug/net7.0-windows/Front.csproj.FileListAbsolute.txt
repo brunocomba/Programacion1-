@@ -1,0 +1,52 @@
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.csproj.GenerateResource.cache
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.AssemblyInfoInputs.cache
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.AssemblyInfo.cs
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.csproj.CoreCompileInputs.cache
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.csproj.AssemblyReference.cache
+C:\Users\brcom\source\repos\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.exe
+C:\Users\brcom\source\repos\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.deps.json
+C:\Users\brcom\source\repos\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.runtimeconfig.json
+C:\Users\brcom\source\repos\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.dll
+C:\Users\brcom\source\repos\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.pdb
+C:\Users\brcom\source\repos\GestionDeProductos\Front\bin\Debug\net7.0-windows\Back.dll
+C:\Users\brcom\source\repos\GestionDeProductos\Front\bin\Debug\net7.0-windows\Back.pdb
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.AltaSmartphone.resources
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.ListaSmartphones.resources
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.Menu.resources
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.csproj.CopyComplete
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.dll
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\refint\Front.dll
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.pdb
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.genruntimeconfig.cache
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\ref\Front.dll
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.ModificacionSmartphone.resources
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.AltaTele.resources
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.ListaTele.resources
+C:\Users\brcom\source\repos\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.ModificacionTele.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.exe
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.deps.json
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.runtimeconfig.json
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.dll
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\bin\Debug\net7.0-windows\Front.pdb
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\bin\Debug\net7.0-windows\Back.dll
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\bin\Debug\net7.0-windows\Back.pdb
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.csproj.AssemblyReference.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.Menu.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.AltaSmartphone.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.ListaSmartphones.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.ModificacionSmartphone.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.AltaTele.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.ListaTele.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.ModificacionTele.resources
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.csproj.GenerateResource.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.AssemblyInfoInputs.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.AssemblyInfo.cs
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.csproj.CoreCompileInputs.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.csproj.CopyComplete
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.dll
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\refint\Front.dll
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.pdb
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\Front.genruntimeconfig.cache
+C:\Users\brcom\source\repos\Ejercicios Entregables 22-08\GestionDeProductos\Front\obj\Debug\net7.0-windows\ref\Front.dll
