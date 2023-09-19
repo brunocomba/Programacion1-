@@ -1,0 +1,16 @@
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.csproj.AssemblyReference.cache
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.csproj.SuggestedBindingRedirects.cache
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.AltaLibro.resources
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.Properties.Resources.resources
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.csproj.GenerateResource.cache
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\bin\Debug\FrontEnd.exe.config
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\bin\Debug\FrontEnd.exe
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\bin\Debug\FrontEnd.pdb
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\bin\Debug\LogicaClases.dll
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\bin\Debug\LogicaClases.pdb
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.exe
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.pdb
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.Menu.resources
+C:\Users\tinch\source\repos\Programacion1-Bcomba\Parcial-Nro1\FrontEnd\obj\Debug\FrontEnd.AltaLibroDigital.resources
