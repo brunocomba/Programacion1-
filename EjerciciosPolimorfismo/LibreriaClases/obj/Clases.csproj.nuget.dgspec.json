@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj": {}
+    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\Clases.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj": {
+    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\Clases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj",
-        "projectName": "LibreriaClases",
-        "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\LibreriaClases.csproj",
+        "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\Clases.csproj",
+        "projectName": "Clases",
+        "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\Clases.csproj",
         "packagesPath": "C:\\Users\\brcom\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\EjerciciosPolimorfismo\\LibreriaClases\\obj\\",
         "projectStyle": "PackageReference",

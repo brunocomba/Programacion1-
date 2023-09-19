@@ -14,15 +14,15 @@ internal class Program
         int opcion = 0;
         do
         {
-            Console.WriteLine("---- MENÚ ----");
-            Console.WriteLine("Seleccione una opcion");
+            Console.WriteLine("------------------- MENÚ -------------------");
+            Console.WriteLine("Seleccione un ejercicio a ejecutar");
             Console.WriteLine();
-            Console.WriteLine("(1) Ejercicio 1. ");
-            Console.WriteLine("(2) Ejercicio 2. ");
-            Console.WriteLine("(3) Ejercicio 3. ");
-            Console.WriteLine("(4) Ejercicio 4. ");
-            Console.WriteLine("(5) Ejercicio 5. ");
-            Console.WriteLine("(6) Ejercicio Opcional. ");
+            Console.WriteLine("(1) Ejercicio 1. (Animales) ");
+            Console.WriteLine("(2) Ejercicio 2. (Vehiculos) ");
+            Console.WriteLine("(3) Ejercicio 3. (Figuras Geometricas) ");
+            Console.WriteLine("(4) Ejercicio 4. (Empleados) ");
+            Console.WriteLine("(5) Ejercicio 5. (Instrumentos Musicales) ");
+            Console.WriteLine("(6) Ejercicio Opcional. (Productos) ");
             Console.WriteLine("(7) Salir. ");
 
             opcion = int.Parse(Console.ReadLine());

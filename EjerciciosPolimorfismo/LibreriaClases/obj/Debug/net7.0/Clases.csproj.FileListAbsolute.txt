@@ -1,0 +1,11 @@
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\bin\Debug\net7.0\Clases.deps.json
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\bin\Debug\net7.0\Clases.dll
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\bin\Debug\net7.0\Clases.pdb
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\obj\Debug\net7.0\Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\obj\Debug\net7.0\Clases.AssemblyInfoInputs.cache
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\obj\Debug\net7.0\Clases.AssemblyInfo.cs
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\obj\Debug\net7.0\Clases.csproj.CoreCompileInputs.cache
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\obj\Debug\net7.0\Clases.dll
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\obj\Debug\net7.0\refint\Clases.dll
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\obj\Debug\net7.0\Clases.pdb
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\EjerciciosPolimorfismo\LibreriaClases\obj\Debug\net7.0\ref\Clases.dll
