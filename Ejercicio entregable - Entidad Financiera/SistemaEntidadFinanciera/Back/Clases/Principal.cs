@@ -88,18 +88,30 @@ namespace Back.Clases
             }
         }
 
+        // retorna lista completas de cuentas
         public List<Cuenta_Bancaria> listaCuentasBancarias()
         {
             cuentasBancarias = context.Cuentas_Bancarias.ToList();
             return cuentasBancarias;
         }
 
-        public List<Cuenta_Bancaria> FiltrarCuentasPorClientes(Cliente clienteABuscar)
+        // al pasarle un cliente, busca las cuentas que tengan dicho cliente y las agrrega a una lista nueva
+        public List<Cuenta_Bancaria> CuentasDeUnCliente(Cliente clienteABuscar)
         {
             var cuentasFiltradas = listaCuentasBancarias().Where(cuenta => cuenta.Cliente.ID == clienteABuscar.ID).ToList();
 
             return cuentasFiltradas;
         }
+
+        // todas las cuentas menos la de un cliente en particular
+        public List<Cuenta_Bancaria> CuentasAjenasAlCliente(Cliente clienteABuscar)
+        {
+            var cuentasFiltradas = listaCuentasBancarias().Where(cuenta => cuenta.Cliente.ID != clienteABuscar.ID).ToList();
+
+            return cuentasFiltradas;
+        }
+
+
         public void RealizarDeposito(Cuenta_Bancaria cuenta, decimal monto)
         {
             if (cuenta != null)
@@ -110,6 +122,7 @@ namespace Back.Clases
                 context.SaveChanges();
             }
         }
+
 
         public void RealizarExtraccion(Cuenta_Bancaria cuenta, decimal extraccion)
         {

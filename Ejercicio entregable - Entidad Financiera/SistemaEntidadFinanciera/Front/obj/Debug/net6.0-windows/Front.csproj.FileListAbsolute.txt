@@ -62,3 +62,5 @@ C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entrega
 C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Cuentas_Bancarias.ListaCtaBancaria.resources
 C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Tarjetas_de_Credito.ListaTarjetaCredito.resources
 C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Deposito.resources
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Extraccion.resources
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Tranferencia.resources

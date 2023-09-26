@@ -16,6 +16,9 @@
     <Compile Update="Cuentas Bancarias\Deposito.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Cuentas Bancarias\Extraccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Inicio\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -23,6 +26,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Tarjetas de Credito\ListaTarjetaCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Cuentas Bancarias\Tranferencia.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

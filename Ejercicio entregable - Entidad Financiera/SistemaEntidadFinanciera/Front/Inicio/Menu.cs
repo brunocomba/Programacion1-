@@ -111,5 +111,19 @@ namespace Front.INICIO
             deposito.Show();
             this.Hide();
         }
+
+        private void btnTransferir_Click(object sender, EventArgs e)
+        {
+            Tranferencia tranferencia = new Tranferencia();
+            tranferencia.Show();
+            this.Hide();
+        }
+
+        private void btnExtraer_Click(object sender, EventArgs e)
+        {
+            Extraccion extraccion = new Extraccion();
+            extraccion.Show();
+            this.Hide();
+        }
     }
 }

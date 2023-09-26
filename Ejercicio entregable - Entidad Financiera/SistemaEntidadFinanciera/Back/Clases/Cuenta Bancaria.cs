@@ -16,5 +16,10 @@ namespace Back.Clases
             Ahorro= 2,
         }
 
+        public override string ToString()
+        {
+            return $" Titular: {Cliente} --- Nro: {NroCuenta}";
+        }
+
     }
 }

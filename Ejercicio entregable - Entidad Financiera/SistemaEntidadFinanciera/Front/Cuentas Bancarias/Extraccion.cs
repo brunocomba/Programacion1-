@@ -1,5 +1,4 @@
 ﻿using Back.Clases;
-using Front.INICIO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,28 +11,29 @@ using System.Windows.Forms;
 
 namespace Front
 {
-    public partial class Deposito : Form
+    public partial class Extraccion : Form
     {
-        public Deposito()
+        public Extraccion()
         {
             InitializeComponent();
         }
 
         Principal principal = new Principal();
-        private void btnDepositar_Click(object sender, EventArgs e)
+
+        private void btnExtraer_Click(object sender, EventArgs e)
         {
             Cliente titular = (Cliente)cmboxTitular.SelectedItem;
             Cuenta_Bancaria cuenta = (Cuenta_Bancaria)cmboxCuenta.SelectedItem;
 
-            var confir = MessageBox.Show($"Seguro desea realizar el siguiente desposito?\n\nTitular cuenta: {titular.Nombre} {titular.Apellido}\nDNI: {titular.DNI}\nNro cuente: {cuenta.NroCuenta}\n" +
-                $"Importe: {txtImporte.Text}", "CONFIRMAR",
+            var confir = MessageBox.Show($"Seguro desea realizar la siguiente extraccion?\n\nTitular cuenta: {titular.Nombre} {titular.Apellido}\nDNI: {titular.DNI}\nNro cuente: {cuenta.NroCuenta}\n" +
+                $"Importe extraccion: {txtImporte.Text}", "CONFIRMAR",
                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 
             if (confir == DialogResult.OK)
             {
-                principal.RealizarDeposito(cuenta, decimal.Parse(txtImporte.Text));
+                principal.RealizarExtraccion(cuenta, decimal.Parse(txtImporte.Text));
 
-                MessageBox.Show($"El deposito fue realizado con exito.\n\nEl saldo actual de la cuenta: {cuenta.NroCuenta} es de: ${cuenta.Saldo}");
+                MessageBox.Show($"La extraccion fue realizada con exito.\n\nEl saldo actual de la cuenta: {cuenta.NroCuenta} es de: ${cuenta.Saldo}");
 
             }
             else
@@ -41,7 +41,7 @@ namespace Front
             }
         }
 
-        private void Deposito_Load(object sender, EventArgs e)
+        private void Extraccion_Load(object sender, EventArgs e)
         {
             cmboxTitular.DataSource = principal.ObtenerClientesActivos();
 
@@ -54,13 +54,6 @@ namespace Front
             var cuentasFiltaradas = principal.CuentasDeUnCliente(cliente);
             cmboxCuenta.DataSource = cuentasFiltaradas;
             cmboxCuenta.DisplayMember = "NroCuenta";
-        }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            Menu menu = new Menu();
-            menu.Show();
-            this.Hide();
         }
     }
 }

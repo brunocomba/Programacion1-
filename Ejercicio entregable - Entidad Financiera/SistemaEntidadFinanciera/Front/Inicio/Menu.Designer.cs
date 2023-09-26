@@ -220,6 +220,7 @@
             btnTransferir.TabIndex = 15;
             btnTransferir.Text = "Tranferir dinero";
             btnTransferir.UseVisualStyleBackColor = false;
+            btnTransferir.Click += btnTransferir_Click;
             // 
             // btnExtraer
             // 
@@ -234,6 +235,7 @@
             btnExtraer.TabIndex = 14;
             btnExtraer.Text = "Extraer dinero";
             btnExtraer.UseVisualStyleBackColor = false;
+            btnExtraer.Click += btnExtraer_Click;
             // 
             // btnDeposito
             // 
