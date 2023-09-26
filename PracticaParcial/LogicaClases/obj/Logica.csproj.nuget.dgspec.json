@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\PracticaParcial\\LogicaClases\\Logica.csproj": {}
+    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\PracticaParcial\\LogicaClases\\Logica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\PracticaParcial\\LogicaClases\\Logica.csproj": {
+    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\PracticaParcial\\LogicaClases\\Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\PracticaParcial\\LogicaClases\\Logica.csproj",
+        "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\PracticaParcial\\LogicaClases\\Logica.csproj",
         "projectName": "Logica",
-        "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\PracticaParcial\\LogicaClases\\Logica.csproj",
+        "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\PracticaParcial\\LogicaClases\\Logica.csproj",
         "packagesPath": "C:\\Users\\brcom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Programacion1\\PracticaParcial\\LogicaClases\\obj\\",
+        "outputPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\PracticaParcial\\LogicaClases\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brcom\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

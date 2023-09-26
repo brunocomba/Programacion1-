@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brcom\\source\\repos\\Ejercicios Entregables 22-08\\GestionTallerDeMotos\\Back\\Back.csproj",
+      "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicios Entregables 22-08\\GestionTallerDeMotos\\Back\\Back.csproj",
       "projectName": "Back",
-      "projectPath": "C:\\Users\\brcom\\source\\repos\\Ejercicios Entregables 22-08\\GestionTallerDeMotos\\Back\\Back.csproj",
+      "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicios Entregables 22-08\\GestionTallerDeMotos\\Back\\Back.csproj",
       "packagesPath": "C:\\Users\\brcom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brcom\\source\\repos\\Ejercicios Entregables 22-08\\GestionTallerDeMotos\\Back\\obj\\",
+      "outputPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicios Entregables 22-08\\GestionTallerDeMotos\\Back\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brcom\\AppData\\Roaming\\NuGet\\NuGet.Config",
