@@ -142,7 +142,7 @@ namespace Back.Clases
                 if (montoTransferencia <= cuentaOrigen.Saldo)
                 {
                     cuentaOrigen.Saldo = cuentaOrigen.Saldo - montoTransferencia;
-                    cuentaDesitno.Saldo = cuentaOrigen.Saldo + montoTransferencia;
+                    cuentaDesitno.Saldo = cuentaDesitno.Saldo + montoTransferencia;
 
                     context.Cuentas_Bancarias.Update(cuentaOrigen);
                     context.Cuentas_Bancarias.Update(cuentaDesitno);

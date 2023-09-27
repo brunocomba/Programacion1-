@@ -1,4 +1,5 @@
 ﻿using Back.Clases;
+using Front.INICIO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -54,6 +55,13 @@ namespace Front
             var cuentasFiltaradas = principal.CuentasDeUnCliente(cliente);
             cmboxCuenta.DataSource = cuentasFiltaradas;
             cmboxCuenta.DisplayMember = "NroCuenta";
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            this.Hide();
         }
     }
 }

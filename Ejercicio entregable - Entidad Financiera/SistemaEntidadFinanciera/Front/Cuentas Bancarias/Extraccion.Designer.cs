@@ -59,6 +59,7 @@
             btnVolver.TabIndex = 26;
             btnVolver.Text = "VOLVER";
             btnVolver.UseVisualStyleBackColor = false;
+            btnVolver.Click += btnVolver_Click;
             // 
             // groupBox2
             // 
