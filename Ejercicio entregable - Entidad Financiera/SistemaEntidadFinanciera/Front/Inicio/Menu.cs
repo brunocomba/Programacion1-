@@ -125,5 +125,26 @@ namespace Front.INICIO
             extraccion.Show();
             this.Hide();
         }
+
+        private void btnCompraTarjeta_Click(object sender, EventArgs e)
+        {
+            Compra compra = new Compra();
+            compra.Show();
+            this.Hide();
+        }
+
+        private void btnPagarTarjta_Click(object sender, EventArgs e)
+        {
+            Pagar pagar = new Pagar();
+            pagar.Show();
+            this.Hide();
+        }
+
+        private void btnResumen_Click(object sender, EventArgs e)
+        {
+            Resumen resumen = new Resumen();
+            resumen.Show(); 
+            this.Hide();
+        }
     }
 }

@@ -48,6 +48,31 @@ namespace Back.Migrations
                     b.ToTable("Clientes");
                 });
 
+            modelBuilder.Entity("Back.Clases.Compra_Tarjeta", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Detalle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Precio")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("TarjetaID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("TarjetaID");
+
+                    b.ToTable("Compras_Tarjeta");
+                });
+
             modelBuilder.Entity("Back.Clases.Cuenta_Bancaria", b =>
                 {
                     b.Property<int>("ID")
@@ -106,6 +131,17 @@ namespace Back.Migrations
                     b.HasIndex("ClienteID");
 
                     b.ToTable("Tarjetas_Credito");
+                });
+
+            modelBuilder.Entity("Back.Clases.Compra_Tarjeta", b =>
+                {
+                    b.HasOne("Back.Clases.Tarjeta_Credito", "Tarjeta")
+                        .WithMany()
+                        .HasForeignKey("TarjetaID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Tarjeta");
                 });
 
             modelBuilder.Entity("Back.Clases.Cuenta_Bancaria", b =>

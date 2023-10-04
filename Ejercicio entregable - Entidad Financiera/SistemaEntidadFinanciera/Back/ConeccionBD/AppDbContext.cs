@@ -8,6 +8,7 @@ namespace Back.ConeccionBD
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Cuenta_Bancaria> Cuentas_Bancarias { get; set; }
         public DbSet<Tarjeta_Credito> Tarjetas_Credito { get; set; }
+        public DbSet<Compra_Tarjeta> Compras_Tarjeta { get; set; }
 
         // coneccion base de datos sql
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

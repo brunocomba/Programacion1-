@@ -46,6 +46,8 @@
             btnListaCtas = new Button();
             btnAddCta = new Button();
             panelTarjetaCredit = new Panel();
+            btnCompraTarjeta = new Button();
+            btnPagarTarjta = new Button();
             btnResumen = new Button();
             btnListaTarjetas = new Button();
             btnAltaTarjeta = new Button();
@@ -286,14 +288,46 @@
             // 
             panelTarjetaCredit.BackColor = Color.LightYellow;
             panelTarjetaCredit.BorderStyle = BorderStyle.FixedSingle;
+            panelTarjetaCredit.Controls.Add(btnCompraTarjeta);
+            panelTarjetaCredit.Controls.Add(btnPagarTarjta);
             panelTarjetaCredit.Controls.Add(btnResumen);
             panelTarjetaCredit.Controls.Add(btnListaTarjetas);
             panelTarjetaCredit.Controls.Add(btnAltaTarjeta);
             panelTarjetaCredit.Location = new Point(587, 145);
             panelTarjetaCredit.Name = "panelTarjetaCredit";
-            panelTarjetaCredit.Size = new Size(154, 147);
+            panelTarjetaCredit.Size = new Size(154, 238);
             panelTarjetaCredit.TabIndex = 13;
             panelTarjetaCredit.Visible = false;
+            // 
+            // btnCompraTarjeta
+            // 
+            btnCompraTarjeta.BackColor = Color.LightYellow;
+            btnCompraTarjeta.Cursor = Cursors.Hand;
+            btnCompraTarjeta.FlatAppearance.BorderSize = 3;
+            btnCompraTarjeta.FlatStyle = FlatStyle.Popup;
+            btnCompraTarjeta.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCompraTarjeta.Location = new Point(-1, 92);
+            btnCompraTarjeta.Name = "btnCompraTarjeta";
+            btnCompraTarjeta.Size = new Size(154, 52);
+            btnCompraTarjeta.TabIndex = 15;
+            btnCompraTarjeta.Text = "Comprar con tarjeta";
+            btnCompraTarjeta.UseVisualStyleBackColor = false;
+            btnCompraTarjeta.Click += btnCompraTarjeta_Click;
+            // 
+            // btnPagarTarjta
+            // 
+            btnPagarTarjta.BackColor = Color.LightYellow;
+            btnPagarTarjta.Cursor = Cursors.Hand;
+            btnPagarTarjta.FlatAppearance.BorderSize = 3;
+            btnPagarTarjta.FlatStyle = FlatStyle.Popup;
+            btnPagarTarjta.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPagarTarjta.Location = new Point(-1, 141);
+            btnPagarTarjta.Name = "btnPagarTarjta";
+            btnPagarTarjta.Size = new Size(154, 52);
+            btnPagarTarjta.TabIndex = 14;
+            btnPagarTarjta.Text = "Pagar deuda tarjeta";
+            btnPagarTarjta.UseVisualStyleBackColor = false;
+            btnPagarTarjta.Click += btnPagarTarjta_Click;
             // 
             // btnResumen
             // 
@@ -302,12 +336,13 @@
             btnResumen.FlatAppearance.BorderSize = 3;
             btnResumen.FlatStyle = FlatStyle.Popup;
             btnResumen.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            btnResumen.Location = new Point(-1, 46);
+            btnResumen.Location = new Point(-1, 43);
             btnResumen.Name = "btnResumen";
             btnResumen.Size = new Size(154, 52);
             btnResumen.TabIndex = 13;
             btnResumen.Text = "Generar resumen";
             btnResumen.UseVisualStyleBackColor = false;
+            btnResumen.Click += btnResumen_Click;
             // 
             // btnListaTarjetas
             // 
@@ -316,7 +351,7 @@
             btnListaTarjetas.FlatAppearance.BorderSize = 3;
             btnListaTarjetas.FlatStyle = FlatStyle.Popup;
             btnListaTarjetas.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            btnListaTarjetas.Location = new Point(-1, 92);
+            btnListaTarjetas.Location = new Point(-1, 185);
             btnListaTarjetas.Name = "btnListaTarjetas";
             btnListaTarjetas.Size = new Size(154, 52);
             btnListaTarjetas.TabIndex = 12;
@@ -385,5 +420,7 @@
         private Button btnExtraer;
         private Button btnDeposito;
         private Button btnResumen;
+        private Button btnCompraTarjeta;
+        private Button btnPagarTarjta;
     }
 }

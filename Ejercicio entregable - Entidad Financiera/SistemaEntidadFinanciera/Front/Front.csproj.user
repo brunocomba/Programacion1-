@@ -7,6 +7,9 @@
     <Compile Update="Clientes\ListadoClientes.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Tarjetas de Credito\Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Cuentas Bancarias\AltaCtaBancaria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -29,6 +32,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Cuentas Bancarias\Tranferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tarjetas de Credito\Pagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tarjetas de Credito\Resumen.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -40,7 +40,7 @@ namespace Front
             toolTip1.SetToolTip(btnAgregarNuevoCliente, "Agregar un nuevo cliente.");
 
 
-            cmboxCliente.Items.AddRange(principal.ObtenerClientes().ToArray());
+            cmboxCliente.Items.AddRange(principal.ObtenerClientesActivos().ToArray());
 
             // agregar los valores de la enumeracion de tipo de cuenta al combobox
             foreach (EstadoTarjetaCredito tipo in Enum.GetValues(typeof(EstadoTarjetaCredito)))
@@ -60,6 +60,10 @@ namespace Front
                 principal.EmitirTarjetaCredito((Cliente)cmboxCliente.SelectedItem, decimal.Parse(txtNroTarjeta.Text), decimal.Parse(txtLimiteCredito.Text),
                     (EstadoTarjetaCredito)Enum.Parse(typeof(EstadoTarjetaCredito), cmboxEstado.SelectedItem.ToString()));
                 MessageBox.Show($"La Tajeta de Credito con Nro de Tarjeta: {txtNroTarjeta.Text} se creo con exito! ");
+                cmboxCliente = null;
+                cmboxEstado = null;
+                txtLimiteCredito.Clear();
+                txtNroTarjeta.Clear();
             }
             else
             {
