@@ -28,13 +28,13 @@ namespace Back.Clases
 
 
         public List<string> comprasConTarjeta = new List<string>();
-        
+
         public List<string> resumen = new List<string>();
 
 
         // ------------------------------------ CLIENTES ----------------------------------------------
 
-        public void AgregarCliente(string nombre, string apellido, int dni) 
+        public void AgregarCliente(string nombre, string apellido, int dni)
         {
             Cliente clienteNew = new Cliente();
 
@@ -42,6 +42,20 @@ namespace Back.Clases
             clienteNew.Apellido = apellido;
             clienteNew.DNI = dni;
             clienteNew.Estado = EstadoCliente.Activo;
+
+       
+          
+
+            if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(apellido) || string.IsNullOrWhiteSpace(dni.ToString()))
+            {
+                throw new Exception("Por favor, complete todos los campos del formulario.");
+
+            }
+
+
+
+
+
 
             context.Clientes.Add(clienteNew);
             context.SaveChanges();            
@@ -86,16 +100,24 @@ namespace Back.Clases
 
         // ------------------------------- CUENTAS BANCARIAS ----------------------------------------------
 
-        public void CrearCuentaBancaria(Cliente cliente, decimal nroCuenta, decimal saldo, TipoDeCuenta tipo)
+        public void CrearCuentaBancaria(Cliente cliente, decimal saldo, TipoDeCuenta tipo)
         {
             if (cliente != null && cliente.Estado != EstadoCliente.Pausado)
             {
                 Cuenta_Bancaria newCtaBancaria = new Cuenta_Bancaria();
                 
                 newCtaBancaria.Cliente = cliente;
-                newCtaBancaria.NroCuenta = nroCuenta;
                 newCtaBancaria.Saldo = saldo;
                 newCtaBancaria.Tipo = tipo;
+
+                if (newCtaBancaria.Tipo == TipoDeCuenta.Corrite)
+                {
+                    newCtaBancaria.NroCuenta = 0000 + cliente.DNI + 0;
+                }
+                else
+                {
+                    newCtaBancaria.NroCuenta = 1111 + cliente.DNI + 1;
+                }
 
                 context.Cuentas_Bancarias.Add(newCtaBancaria);
                 context.SaveChanges();
@@ -221,12 +243,12 @@ namespace Back.Clases
                 Tarjeta_Credito tarjetaNew = new Tarjeta_Credito();
 
                 tarjetaNew.Cliente = cliente;
-                tarjetaNew.NroTarjeta = nroTarjeta;
                 tarjetaNew.LimiteCredito = limiteCredito;
                 tarjetaNew.SaldoDisponible = limiteCredito;
                 tarjetaNew.MontoDeuda = 0;
                 tarjetaNew.Estado = estado;
 
+                tarjetaNew.NroTarjeta = 4544 + cliente.DNI + 9; 
 
                 context.Tarjetas_Credito.Add(tarjetaNew);   
                 context.SaveChanges();
@@ -249,6 +271,7 @@ namespace Back.Clases
             tarjetasCredito = context.Tarjetas_Credito.ToList();
             return tarjetasCredito;
         }
+
         public List<Tarjeta_Credito> TarjetasDeUnCliente(Cliente clienteABuscar)
         {
             var tarjetasFiltradas = listaTarjetas().Where(tarjeta => tarjeta.Cliente.ID == clienteABuscar.ID).ToList();
@@ -272,14 +295,12 @@ namespace Back.Clases
                     compraNew.Detalle = detalle;
                     compraNew.Precio = precio;
 
-
-                    comprasConTarjeta.Add($"{detalle} --------------------------- ${precio}");
                     // ver como hacer para mostrar un listado de las comptas hechas por cada tarjeta.
 
                     tarjeta.MontoDeuda = tarjeta.MontoDeuda + precio;
                     tarjeta.SaldoDisponible = tarjeta.SaldoDisponible  - precio;
 
-
+                    context.Compras_Tarjeta.Add(compraNew);
                     context.Tarjetas_Credito.Update(tarjeta);
                     context.SaveChanges();
 
@@ -293,6 +314,16 @@ namespace Back.Clases
 
             }
             //return "No se encontro la tarjeta";
+        }
+
+        public List<Compra_Tarjeta> ResumenCompras(Tarjeta_Credito tarjeta)
+        {
+            var comprasEncontradas = context.Compras_Tarjeta.Find(tarjeta.ID);
+            List<Compra_Tarjeta> resumen = new List<Compra_Tarjeta>();
+            resumen.Add(comprasEncontradas);
+
+            return resumen;
+
         }
         public void PagarTarjeta(Tarjeta_Credito tarjeta, decimal pago)
         {
@@ -322,14 +353,8 @@ namespace Back.Clases
             var tarjetaEncontrada = context.Tarjetas_Credito.Find(id);
             List<Tarjeta_Credito> resu = new List<Tarjeta_Credito>();
             resu.Add(tarjetaEncontrada);
-            resumen.Add($"RESUMEN TARJETA DE CREDITO NRO {tarjetaEncontrada.NroTarjeta}\nTitular: {tarjetaEncontrada.Cliente.Nombre + tarjetaEncontrada.Cliente.Apellido}\nDNI: {tarjetaEncontrada.Cliente.DNI}\n\n Credito otorgado: ${tarjetaEncontrada.LimiteCredito}" +
-                     $"\nCredito disponible: ${tarjetaEncontrada.SaldoDisponible}\nMonto a abonar; ${tarjetaEncontrada.MontoDeuda}");
 
-            return resu; 
-
-
-
-            
+            return resu;
             
             
         }

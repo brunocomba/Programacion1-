@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Front.csproj": {}
+    "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Front.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj": {
+    "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj",
+        "projectUniqueName": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj",
         "projectName": "Back",
-        "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj",
-        "packagesPath": "C:\\Users\\brcom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\obj\\",
+        "projectPath": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj",
+        "packagesPath": "C:\\Users\\tinch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brcom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tinch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Front.csproj": {
+    "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Front.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Front.csproj",
+        "projectUniqueName": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Front.csproj",
         "projectName": "Front",
-        "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Front.csproj",
-        "packagesPath": "C:\\Users\\brcom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\obj\\",
+        "projectPath": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Front.csproj",
+        "packagesPath": "C:\\Users\\tinch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brcom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tinch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,8 +99,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj": {
-                "projectPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj"
+              "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj": {
+                "projectPath": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\Programacion1-Bcomba\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Back.csproj"
               }
             }
           }
@@ -133,7 +133,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

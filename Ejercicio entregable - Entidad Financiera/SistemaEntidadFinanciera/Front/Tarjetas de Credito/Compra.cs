@@ -25,7 +25,6 @@ namespace Front
         {
             cmboxTitular.Items.AddRange(principal.ObtenerClientesActivos().ToArray());
             var compras = principal.Compras();
-            listBox1.Items.Add(principal.Compras().ToArray());
         }
 
         private void cmboxTitular_SelectedIndexChanged(object sender, EventArgs e)

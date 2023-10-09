@@ -19,20 +19,23 @@ namespace Front
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            var confir = MessageBox.Show($"Seguro desea crear este nuevo cliente?\n\nNombre: {txtNombre.Text}\nApellido: {txtApellido.Text}\nDNI: {txtDNI.Text}", "NUEVO CLIENTE",
-                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (confir == DialogResult.OK)
+            try
             {
-                principal.AgregarCliente(txtNombre.Text, txtApellido.Text, int.Parse(txtDNI.Text));
-                MessageBox.Show($"El cliente {txtNombre.Text} {txtApellido.Text} se creo con exito! ");
-                formPrevio.Show();
-                this.Hide();
-            }
-            else
-            {
-                txtNombre.Clear(); txtApellido.Clear(); txtDNI.Clear();
-            }
+             
+                    principal.AgregarCliente(txtNombre.Text, txtApellido.Text, int.Parse(txtDNI.Text));
+                    MessageBox.Show($"El cliente {txtNombre.Text} {txtApellido.Text} se creo con exito! ");
+                    formPrevio.Show();
+                    this.Hide();
+                
 
+
+            }
+            catch (Exception camposIncompletos)
+            {
+                // Manejar la excepción de campos incompletos
+                MessageBox.Show("Error: " + camposIncompletos.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+         
 
         }
 

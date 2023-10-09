@@ -22,5 +22,10 @@ namespace Back.Clases
             Pausada = 0,
             Activa = 1
         }
+
+        public override string ToString()
+        {
+            return $"{NroTarjeta}";
+        }
     }
 }

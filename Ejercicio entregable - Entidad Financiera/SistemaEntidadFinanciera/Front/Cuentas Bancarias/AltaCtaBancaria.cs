@@ -46,7 +46,7 @@ namespace Front
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (confir == DialogResult.OK)
             {
-                principal.CrearCuentaBancaria((Cliente)cmboxCliente.SelectedItem, decimal.Parse(txtNroCuenta.Text), decimal.Parse(txtSaldo.Text),
+                principal.CrearCuentaBancaria((Cliente)cmboxCliente.SelectedItem,  decimal.Parse(txtSaldo.Text),
                     (TipoDeCuenta)Enum.Parse(typeof(TipoDeCuenta), cmboxTipo.SelectedItem.ToString()));
                 MessageBox.Show($"La cuenta bancaria numero: {txtNroCuenta.Text} se creo con exito! ");
             }

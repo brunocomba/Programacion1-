@@ -40,5 +40,8 @@
     <Compile Update="Tarjetas de Credito\Resumen.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Tarjetas de Credito\ResumenCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

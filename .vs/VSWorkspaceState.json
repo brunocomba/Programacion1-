@@ -5,11 +5,12 @@
     "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera",
     "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back",
     "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Clases",
+    "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\ConeccionBD",
     "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front",
     "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Cuentas Bancarias",
     "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Inicio",
     "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Tarjetas de Credito"
   ],
-  "SelectedNode": "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Front\\Tarjetas de Credito\\Compra.cs",
+  "SelectedNode": "\\Ejercicio entregable - Entidad Financiera\\SistemaEntidadFinanciera\\Back\\Clases\\Tarjeta Credito.cs",
   "PreviewInSolutionExplorer": false
 }

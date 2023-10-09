@@ -12,5 +12,6 @@ namespace Back.Clases
         public Tarjeta_Credito Tarjeta { get; set; }
         public string Detalle { get; set; }
         public decimal Precio { get; set; }
+
     }
 }
