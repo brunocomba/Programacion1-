@@ -24,7 +24,6 @@ namespace Front
         private void Compra_Load(object sender, EventArgs e)
         {
             cmboxTitular.Items.AddRange(principal.ObtenerClientesActivos().ToArray());
-            var compras = principal.Compras();
 
         }
 

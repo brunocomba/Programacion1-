@@ -52,8 +52,6 @@ namespace Front
             }
             else
             {
-
-
             }
         }
 

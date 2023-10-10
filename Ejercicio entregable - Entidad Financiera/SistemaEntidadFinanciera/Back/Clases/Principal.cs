@@ -1,15 +1,9 @@
 ﻿using Back.ConeccionBD;
-using Microsoft.EntityFrameworkCore.Storage;
-using Microsoft.VisualBasic;
-using System.Collections.Generic;
-using System.Linq;
 using System.Data;
 using static Back.Clases.Cliente;
 using static Back.Clases.Cuenta_Bancaria;
 using static Back.Clases.Tarjeta_Credito;
-using System.Security.Claims;
-using Microsoft.EntityFrameworkCore;
-using System.Globalization;
+
 
 namespace Back.Clases
 {
@@ -27,36 +21,39 @@ namespace Back.Clases
 
         private List<Tarjeta_Credito> tarjetasCredito = new List<Tarjeta_Credito>();
 
-
-        public List<string> comprasConTarjeta = new List<string>();
-
         public List<string> resumen = new List<string>();
 
 
         // ------------------------------------ CLIENTES ----------------------------------------------
 
-        public void AgregarCliente(string nombre, string apellido, int dni)
+        public void AgregarCliente(string nombre, string apellido, string dni)
         {
-            Cliente clienteNew = new Cliente();
+            
 
-            clienteNew.Nombre = nombre;
-            clienteNew.Apellido = apellido;
-            clienteNew.DNI = dni;
-            clienteNew.Estado = EstadoCliente.Activo;
-
-       
-          
-
-            if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(apellido) || string.IsNullOrWhiteSpace(dni.ToString()))
+            if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(apellido) || string.IsNullOrWhiteSpace(dni))
             {
                 throw new Exception("Por favor, complete todos los campos del formulario.");
 
             }
 
+            if (dni.Length <= 7)
+            {
+                throw new Exception("El DNI esta incompleto.");
 
+            }
+           
+            if (!int.TryParse(dni, out _))
+            {
+                throw new Exception("El DNI debe contener numeros solamente.");
 
+            }
 
+            Cliente clienteNew = new Cliente();
 
+            clienteNew.Nombre = nombre;
+            clienteNew.Apellido = apellido;
+            clienteNew.DNI = int.Parse(dni);
+            clienteNew.Estado = EstadoCliente.Activo;
 
             context.Clientes.Add(clienteNew);
             context.SaveChanges();            
@@ -281,11 +278,6 @@ namespace Back.Clases
             var tarjetasFiltradas = listaTarjetas().Where(tarjeta => tarjeta.Cliente.ID == clienteABuscar.ID).ToList();
 
             return tarjetasFiltradas;
-        }
-
-        public List<string> Compras()
-        {
-            return comprasConTarjeta;
         }
 
         public void RealizarCompraConTarjeta (Tarjeta_Credito tarjeta, decimal precio, string detalle, DateTime fecha)

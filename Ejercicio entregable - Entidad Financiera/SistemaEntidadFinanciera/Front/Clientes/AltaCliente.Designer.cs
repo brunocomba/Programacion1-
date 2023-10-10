@@ -127,9 +127,10 @@
             // txtDNI
             // 
             txtDNI.Location = new Point(134, 207);
+            txtDNI.MaxLength = 8;
             txtDNI.Name = "txtDNI";
             txtDNI.Size = new Size(263, 23);
-            txtDNI.TabIndex = 6;
+            txtDNI.TabIndex = 3;
             // 
             // txtNombre
             // 
