@@ -137,3 +137,4 @@ C:\Users\tinch\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entrega
 C:\Users\tinch\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.genruntimeconfig.cache
 C:\Users\tinch\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\ref\Front.dll
 C:\Users\tinch\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Tarjetas_de_Credito.ResumenCompras.resources
+C:\Users\brcom\OneDrive\Documentos\GitHub\Programacion1-Bcomba\Ejercicio entregable - Entidad Financiera\SistemaEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Tarjetas_de_Credito.ResumenCompras.resources

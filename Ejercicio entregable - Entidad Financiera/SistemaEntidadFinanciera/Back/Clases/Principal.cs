@@ -9,6 +9,7 @@ using static Back.Clases.Cuenta_Bancaria;
 using static Back.Clases.Tarjeta_Credito;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 
 namespace Back.Clases
 {
@@ -112,11 +113,13 @@ namespace Back.Clases
 
                 if (newCtaBancaria.Tipo == TipoDeCuenta.Corrite)
                 {
-                    newCtaBancaria.NroCuenta = 0000 + cliente.DNI + 0;
+                    string cuenta = $"1290{cliente.DNI}2";
+                    newCtaBancaria.NroCuenta = Int64.Parse(cuenta);
                 }
-                else
+                if (newCtaBancaria.Tipo == TipoDeCuenta.Ahorro)    
                 {
-                    newCtaBancaria.NroCuenta = 1111 + cliente.DNI + 1;
+                    string cuenta = $"2350{cliente.DNI}2";
+                    newCtaBancaria.NroCuenta = Int64.Parse(cuenta);
                 }
 
                 context.Cuentas_Bancarias.Add(newCtaBancaria);
@@ -236,7 +239,7 @@ namespace Back.Clases
 
         // ---------------------------------------------------------------------------------- TARJETAS DE CREDITO
 
-        public  void EmitirTarjetaCredito(Cliente cliente, decimal nroTarjeta, decimal limiteCredito, EstadoTarjetaCredito estado)
+        public  void EmitirTarjetaCredito(Cliente cliente, decimal limiteCredito, EstadoTarjetaCredito estado)
         {
             if (cliente != null && cliente.Estado != EstadoCliente.Pausado)
             {
@@ -248,7 +251,8 @@ namespace Back.Clases
                 tarjetaNew.MontoDeuda = 0;
                 tarjetaNew.Estado = estado;
 
-                tarjetaNew.NroTarjeta = 4544 + cliente.DNI + 9; 
+                string nrotarjeta = $"4544{cliente.DNI}9";
+                tarjetaNew.NroTarjeta = Int64.Parse(nrotarjeta); 
 
                 context.Tarjetas_Credito.Add(tarjetaNew);   
                 context.SaveChanges();
@@ -284,7 +288,7 @@ namespace Back.Clases
             return comprasConTarjeta;
         }
 
-        public void RealizarCompraConTarjeta (Tarjeta_Credito tarjeta, decimal precio, string detalle)
+        public void RealizarCompraConTarjeta (Tarjeta_Credito tarjeta, decimal precio, string detalle, DateTime fecha)
         {
             if (tarjeta != null)
             {
@@ -294,6 +298,7 @@ namespace Back.Clases
                     compraNew.Tarjeta = tarjeta;
                     compraNew.Detalle = detalle;
                     compraNew.Precio = precio;
+                    compraNew.Fecha = fecha;
 
                     // ver como hacer para mostrar un listado de las comptas hechas por cada tarjeta.
 
@@ -318,11 +323,9 @@ namespace Back.Clases
 
         public List<Compra_Tarjeta> ResumenCompras(Tarjeta_Credito tarjeta)
         {
-            var comprasEncontradas = context.Compras_Tarjeta.Find(tarjeta.ID);
-            List<Compra_Tarjeta> resumen = new List<Compra_Tarjeta>();
-            resumen.Add(comprasEncontradas);
-
-            return resumen;
+            var comprasEncontradas = context.Compras_Tarjeta.Where(c => c.Tarjeta == tarjeta).ToList();
+           
+            return comprasEncontradas;
 
         }
         public void PagarTarjeta(Tarjeta_Credito tarjeta, decimal pago)

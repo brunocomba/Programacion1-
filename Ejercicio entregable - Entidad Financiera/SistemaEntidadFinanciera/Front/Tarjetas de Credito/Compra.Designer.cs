@@ -31,10 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Compra));
             btnVolver = new Button();
             groupBox2 = new GroupBox();
+            label9 = new Label();
+            dateTimePicker1 = new DateTimePicker();
             txtPrecio = new TextBox();
             label6 = new Label();
             cmboxNroTarjeta = new ComboBox();
-            btnAgregarNuevoCliente = new Button();
             label7 = new Label();
             cmboxTitular = new ComboBox();
             btnComprar = new Button();
@@ -45,6 +46,7 @@
             label3 = new Label();
             groupBox1 = new GroupBox();
             label1 = new Label();
+            sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -67,10 +69,11 @@
             // groupBox2
             // 
             groupBox2.BackColor = Color.WhiteSmoke;
+            groupBox2.Controls.Add(label9);
+            groupBox2.Controls.Add(dateTimePicker1);
             groupBox2.Controls.Add(txtPrecio);
             groupBox2.Controls.Add(label6);
             groupBox2.Controls.Add(cmboxNroTarjeta);
-            groupBox2.Controls.Add(btnAgregarNuevoCliente);
             groupBox2.Controls.Add(label7);
             groupBox2.Controls.Add(cmboxTitular);
             groupBox2.Controls.Add(btnComprar);
@@ -81,13 +84,30 @@
             groupBox2.Controls.Add(label3);
             groupBox2.Location = new Point(327, 104);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(466, 409);
+            groupBox2.Size = new Size(466, 427);
             groupBox2.TabIndex = 26;
             groupBox2.TabStop = false;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Location = new Point(38, 294);
+            label9.Name = "label9";
+            label9.Size = new Size(43, 16);
+            label9.TabIndex = 33;
+            label9.Text = "Fecha";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(147, 289);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(263, 23);
+            dateTimePicker1.TabIndex = 31;
+            // 
             // txtPrecio
             // 
-            txtPrecio.Location = new Point(151, 238);
+            txtPrecio.Location = new Point(151, 232);
             txtPrecio.Name = "txtPrecio";
             txtPrecio.Size = new Size(263, 23);
             txtPrecio.TabIndex = 30;
@@ -96,7 +116,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(127, 244);
+            label6.Location = new Point(127, 238);
             label6.Name = "label6";
             label6.Size = new Size(16, 17);
             label6.TabIndex = 29;
@@ -111,24 +131,11 @@
             cmboxNroTarjeta.Size = new Size(263, 23);
             cmboxNroTarjeta.TabIndex = 28;
             // 
-            // btnAgregarNuevoCliente
-            // 
-            btnAgregarNuevoCliente.BackColor = Color.MintCream;
-            btnAgregarNuevoCliente.FlatAppearance.BorderSize = 3;
-            btnAgregarNuevoCliente.FlatStyle = FlatStyle.Popup;
-            btnAgregarNuevoCliente.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAgregarNuevoCliente.Location = new Point(429, 69);
-            btnAgregarNuevoCliente.Name = "btnAgregarNuevoCliente";
-            btnAgregarNuevoCliente.Size = new Size(31, 29);
-            btnAgregarNuevoCliente.TabIndex = 9;
-            btnAgregarNuevoCliente.Text = "+";
-            btnAgregarNuevoCliente.UseVisualStyleBackColor = false;
-            // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(38, 245);
+            label7.Location = new Point(36, 238);
             label7.Name = "label7";
             label7.Size = new Size(44, 16);
             label7.TabIndex = 13;
@@ -150,7 +157,7 @@
             btnComprar.FlatAppearance.BorderSize = 3;
             btnComprar.FlatStyle = FlatStyle.Popup;
             btnComprar.Font = new Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btnComprar.Location = new Point(172, 346);
+            btnComprar.Location = new Point(172, 366);
             btnComprar.Name = "btnComprar";
             btnComprar.Size = new Size(154, 35);
             btnComprar.TabIndex = 8;
@@ -160,7 +167,7 @@
             // 
             // txtDetalle
             // 
-            txtDetalle.Location = new Point(151, 180);
+            txtDetalle.Location = new Point(149, 179);
             txtDetalle.Name = "txtDetalle";
             txtDetalle.Size = new Size(263, 23);
             txtDetalle.TabIndex = 6;
@@ -179,7 +186,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(38, 187);
+            label4.Location = new Point(36, 186);
             label4.Name = "label4";
             label4.Size = new Size(94, 16);
             label4.TabIndex = 3;
@@ -226,6 +233,11 @@
             label1.TabIndex = 1;
             label1.Text = "NUEVA COMPRA";
             // 
+            // sqlCommand1
+            // 
+            sqlCommand1.CommandTimeout = 30;
+            sqlCommand1.EnableOptimizedParameterBinding = false;
+            // 
             // Compra
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -252,7 +264,6 @@
 
         private Button btnVolver;
         private GroupBox groupBox2;
-        private Button btnAgregarNuevoCliente;
         private Label label7;
         private ComboBox cmboxTitular;
         private Button btnComprar;
@@ -266,5 +277,8 @@
         private ComboBox cmboxNroTarjeta;
         private Label label6;
         private TextBox txtPrecio;
+        private DateTimePicker dateTimePicker1;
+        private Label label9;
+        private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
     }
 }

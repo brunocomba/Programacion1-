@@ -52,18 +52,17 @@ namespace Front
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            var confir = MessageBox.Show($"Seguro desea emitir esta nueva Tarjeta de Credito?\nCliente: {cmboxCliente.SelectedItem}\nNro de cuenta: {txtNroTarjeta.Text}\nLimite de Credito: {txtLimiteCredito.Text}" +
-                $"\\\nEstado: {cmboxEstado.SelectedItem}", "NUEVA TARJETA DE CREDITO",
+            var confir = MessageBox.Show($"Seguro desea emitir esta nueva Tarjeta de Credito?\nCliente: {cmboxCliente.SelectedItem}\nLimite de Credito: {txtLimiteCredito.Text}" +
+                $"\nEstado: {cmboxEstado.SelectedItem}", "NUEVA TARJETA DE CREDITO",
                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (confir == DialogResult.OK)
             {
-                principal.EmitirTarjetaCredito((Cliente)cmboxCliente.SelectedItem, decimal.Parse(txtNroTarjeta.Text), decimal.Parse(txtLimiteCredito.Text),
+                principal.EmitirTarjetaCredito((Cliente)cmboxCliente.SelectedItem, decimal.Parse(txtLimiteCredito.Text),
                     (EstadoTarjetaCredito)Enum.Parse(typeof(EstadoTarjetaCredito), cmboxEstado.SelectedItem.ToString()));
-                MessageBox.Show($"La Tajeta de Credito con Nro de Tarjeta: {txtNroTarjeta.Text} se creo con exito! ");
+                MessageBox.Show($"La Tajeta de Credito para el cliente: {cmboxCliente.Text} se creo con exito! ");
                 cmboxCliente = null;
                 cmboxEstado = null;
                 txtLimiteCredito.Clear();
-                txtNroTarjeta.Clear();
             }
             else
             {

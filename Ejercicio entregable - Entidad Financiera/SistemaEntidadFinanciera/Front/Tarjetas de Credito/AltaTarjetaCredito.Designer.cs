@@ -38,12 +38,10 @@
             cmboxEstado = new ComboBox();
             cmboxCliente = new ComboBox();
             btnCrear = new Button();
-            txtNroTarjeta = new TextBox();
             txtLimiteCredito = new TextBox();
             label5 = new Label();
             label4 = new Label();
             label2 = new Label();
-            label3 = new Label();
             toolTip1 = new ToolTip(components);
             btnVolver = new Button();
             groupBox1.SuspendLayout();
@@ -79,12 +77,10 @@
             groupBox2.Controls.Add(cmboxEstado);
             groupBox2.Controls.Add(cmboxCliente);
             groupBox2.Controls.Add(btnCrear);
-            groupBox2.Controls.Add(txtNroTarjeta);
             groupBox2.Controls.Add(txtLimiteCredito);
             groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(label4);
             groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(label3);
             groupBox2.Location = new Point(335, 115);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(466, 400);
@@ -109,7 +105,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(38, 239);
+            label7.Location = new Point(36, 198);
             label7.Name = "label7";
             label7.Size = new Size(48, 16);
             label7.TabIndex = 13;
@@ -118,7 +114,7 @@
             // cmboxEstado
             // 
             cmboxEstado.FormattingEnabled = true;
-            cmboxEstado.Location = new Point(149, 232);
+            cmboxEstado.Location = new Point(147, 191);
             cmboxEstado.Name = "cmboxEstado";
             cmboxEstado.Size = new Size(263, 23);
             cmboxEstado.TabIndex = 12;
@@ -137,7 +133,7 @@
             btnCrear.FlatAppearance.BorderSize = 3;
             btnCrear.FlatStyle = FlatStyle.Popup;
             btnCrear.Font = new Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btnCrear.Location = new Point(172, 346);
+            btnCrear.Location = new Point(170, 305);
             btnCrear.Name = "btnCrear";
             btnCrear.Size = new Size(154, 35);
             btnCrear.TabIndex = 8;
@@ -145,16 +141,9 @@
             btnCrear.UseVisualStyleBackColor = false;
             btnCrear.Click += btnCrear_Click;
             // 
-            // txtNroTarjeta
-            // 
-            txtNroTarjeta.Location = new Point(151, 119);
-            txtNroTarjeta.Name = "txtNroTarjeta";
-            txtNroTarjeta.Size = new Size(261, 23);
-            txtNroTarjeta.TabIndex = 7;
-            // 
             // txtLimiteCredito
             // 
-            txtLimiteCredito.Location = new Point(151, 170);
+            txtLimiteCredito.Location = new Point(149, 129);
             txtLimiteCredito.Name = "txtLimiteCredito";
             txtLimiteCredito.Size = new Size(263, 23);
             txtLimiteCredito.TabIndex = 6;
@@ -173,7 +162,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(38, 177);
+            label4.Location = new Point(36, 136);
             label4.Name = "label4";
             label4.Size = new Size(105, 16);
             label4.TabIndex = 3;
@@ -189,16 +178,6 @@
             label2.TabIndex = 1;
             label2.Text = "Cliente";
             label2.Click += label2_Click;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(38, 126);
-            label3.Name = "label3";
-            label3.Size = new Size(87, 16);
-            label3.TabIndex = 2;
-            label3.Text = "Nro de Tarjeta";
             // 
             // btnVolver
             // 

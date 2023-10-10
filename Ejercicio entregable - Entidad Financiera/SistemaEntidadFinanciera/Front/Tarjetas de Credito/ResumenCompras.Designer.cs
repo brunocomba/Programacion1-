@@ -29,14 +29,16 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             dgvResumenTarjeta = new DataGridView();
             iDDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             tarjetaDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             detalleDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             precioDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            fechaDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            compraTarjetaBindingSource1 = new BindingSource(components);
             compraTarjetaBindingSource = new BindingSource(components);
             groupBox2 = new GroupBox();
             btnBuscar = new Button();
@@ -49,6 +51,7 @@
             groupBox1 = new GroupBox();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvResumenTarjeta).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)compraTarjetaBindingSource1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)compraTarjetaBindingSource).BeginInit();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -67,43 +70,43 @@
             dgvResumenTarjeta.BackgroundColor = Color.WhiteSmoke;
             dgvResumenTarjeta.BorderStyle = BorderStyle.None;
             dgvResumenTarjeta.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = Color.SteelBlue;
-            dataGridViewCellStyle4.Font = new Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = Color.SteelBlue;
-            dataGridViewCellStyle4.SelectionForeColor = Color.White;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dgvResumenTarjeta.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.SteelBlue;
+            dataGridViewCellStyle1.Font = new Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = Color.SteelBlue;
+            dataGridViewCellStyle1.SelectionForeColor = Color.White;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgvResumenTarjeta.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvResumenTarjeta.ColumnHeadersHeight = 28;
             dgvResumenTarjeta.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dgvResumenTarjeta.Columns.AddRange(new DataGridViewColumn[] { iDDataGridViewTextBoxColumn, tarjetaDataGridViewTextBoxColumn, detalleDataGridViewTextBoxColumn, precioDataGridViewTextBoxColumn });
-            dgvResumenTarjeta.DataSource = compraTarjetaBindingSource;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = Color.White;
-            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.False;
-            dgvResumenTarjeta.DefaultCellStyle = dataGridViewCellStyle5;
+            dgvResumenTarjeta.Columns.AddRange(new DataGridViewColumn[] { iDDataGridViewTextBoxColumn, tarjetaDataGridViewTextBoxColumn, detalleDataGridViewTextBoxColumn, precioDataGridViewTextBoxColumn, fechaDataGridViewTextBoxColumn });
+            dgvResumenTarjeta.DataSource = compraTarjetaBindingSource1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.White;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dgvResumenTarjeta.DefaultCellStyle = dataGridViewCellStyle2;
             dgvResumenTarjeta.EnableHeadersVisualStyles = false;
             dgvResumenTarjeta.GridColor = Color.Black;
-            dgvResumenTarjeta.Location = new Point(269, 107);
+            dgvResumenTarjeta.Location = new Point(369, 97);
             dgvResumenTarjeta.Name = "dgvResumenTarjeta";
             dgvResumenTarjeta.ReadOnly = true;
             dgvResumenTarjeta.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgvResumenTarjeta.RowHeadersVisible = false;
             dgvResumenTarjeta.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle6.BackColor = Color.White;
-            dataGridViewCellStyle6.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = Color.WhiteSmoke;
-            dataGridViewCellStyle6.SelectionForeColor = Color.Black;
-            dgvResumenTarjeta.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = Color.WhiteSmoke;
+            dataGridViewCellStyle3.SelectionForeColor = Color.Black;
+            dgvResumenTarjeta.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgvResumenTarjeta.RowTemplate.Height = 25;
             dgvResumenTarjeta.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvResumenTarjeta.Size = new Size(736, 449);
+            dgvResumenTarjeta.Size = new Size(591, 449);
             dgvResumenTarjeta.TabIndex = 37;
             // 
             // iDDataGridViewTextBoxColumn
@@ -117,18 +120,18 @@
             // tarjetaDataGridViewTextBoxColumn
             // 
             tarjetaDataGridViewTextBoxColumn.DataPropertyName = "Tarjeta";
-            tarjetaDataGridViewTextBoxColumn.HeaderText = "Tarjeta";
+            tarjetaDataGridViewTextBoxColumn.HeaderText = "Numero Tarjeta";
             tarjetaDataGridViewTextBoxColumn.Name = "tarjetaDataGridViewTextBoxColumn";
             tarjetaDataGridViewTextBoxColumn.ReadOnly = true;
-            tarjetaDataGridViewTextBoxColumn.Width = 81;
+            tarjetaDataGridViewTextBoxColumn.Width = 141;
             // 
             // detalleDataGridViewTextBoxColumn
             // 
             detalleDataGridViewTextBoxColumn.DataPropertyName = "Detalle";
-            detalleDataGridViewTextBoxColumn.HeaderText = "Detalle";
+            detalleDataGridViewTextBoxColumn.HeaderText = "Detalle Compra";
             detalleDataGridViewTextBoxColumn.Name = "detalleDataGridViewTextBoxColumn";
             detalleDataGridViewTextBoxColumn.ReadOnly = true;
-            detalleDataGridViewTextBoxColumn.Width = 82;
+            detalleDataGridViewTextBoxColumn.Width = 141;
             // 
             // precioDataGridViewTextBoxColumn
             // 
@@ -137,6 +140,18 @@
             precioDataGridViewTextBoxColumn.Name = "precioDataGridViewTextBoxColumn";
             precioDataGridViewTextBoxColumn.ReadOnly = true;
             precioDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // fechaDataGridViewTextBoxColumn
+            // 
+            fechaDataGridViewTextBoxColumn.DataPropertyName = "Fecha";
+            fechaDataGridViewTextBoxColumn.HeaderText = "Fecha";
+            fechaDataGridViewTextBoxColumn.Name = "fechaDataGridViewTextBoxColumn";
+            fechaDataGridViewTextBoxColumn.ReadOnly = true;
+            fechaDataGridViewTextBoxColumn.Width = 75;
+            // 
+            // compraTarjetaBindingSource1
+            // 
+            compraTarjetaBindingSource1.DataSource = typeof(Back.Clases.Compra_Tarjeta);
             // 
             // compraTarjetaBindingSource
             // 
@@ -232,6 +247,7 @@
             btnVolver.TabIndex = 35;
             btnVolver.Text = "VOLVER";
             btnVolver.UseVisualStyleBackColor = false;
+            btnVolver.Click += btnVolver_Click;
             // 
             // groupBox1
             // 
@@ -270,6 +286,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Load += ResumenCompras_Load;
             ((System.ComponentModel.ISupportInitialize)dgvResumenTarjeta).EndInit();
+            ((System.ComponentModel.ISupportInitialize)compraTarjetaBindingSource1).EndInit();
             ((System.ComponentModel.ISupportInitialize)compraTarjetaBindingSource).EndInit();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
@@ -281,10 +298,6 @@
         #endregion
 
         private DataGridView dgvResumenTarjeta;
-        private DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn tarjetaDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn detalleDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn precioDataGridViewTextBoxColumn;
         private BindingSource compraTarjetaBindingSource;
         private GroupBox groupBox2;
         private Button btnBuscar;
@@ -296,5 +309,11 @@
         private Button btnVolver;
         private GroupBox groupBox1;
         private Label label1;
+        private BindingSource compraTarjetaBindingSource1;
+        private DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn tarjetaDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn detalleDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn precioDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn fechaDataGridViewTextBoxColumn;
     }
 }

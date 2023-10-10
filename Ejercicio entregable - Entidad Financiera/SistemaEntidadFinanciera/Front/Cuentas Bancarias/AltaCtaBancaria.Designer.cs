@@ -33,19 +33,17 @@
             groupBox1 = new GroupBox();
             label1 = new Label();
             groupBox2 = new GroupBox();
+            label4 = new Label();
+            txtSaldo = new TextBox();
             btnAgregarNuevoCliente = new Button();
             label6 = new Label();
             cmboxTipo = new ComboBox();
             cmboxCliente = new ComboBox();
             btnCrear = new Button();
-            txtNroCuenta = new TextBox();
             label5 = new Label();
             label2 = new Label();
-            label3 = new Label();
             toolTip1 = new ToolTip(components);
             btnVolver = new Button();
-            txtSaldo = new TextBox();
-            label4 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -81,15 +79,30 @@
             groupBox2.Controls.Add(cmboxTipo);
             groupBox2.Controls.Add(cmboxCliente);
             groupBox2.Controls.Add(btnCrear);
-            groupBox2.Controls.Add(txtNroCuenta);
             groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(label3);
             groupBox2.Location = new Point(332, 109);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(466, 400);
             groupBox2.TabIndex = 4;
             groupBox2.TabStop = false;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(44, 157);
+            label4.Name = "label4";
+            label4.Size = new Size(40, 16);
+            label4.TabIndex = 14;
+            label4.Text = "Saldo";
+            // 
+            // txtSaldo
+            // 
+            txtSaldo.Location = new Point(146, 157);
+            txtSaldo.Name = "txtSaldo";
+            txtSaldo.Size = new Size(263, 23);
+            txtSaldo.TabIndex = 13;
             // 
             // btnAgregarNuevoCliente
             // 
@@ -109,7 +122,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(43, 275);
+            label6.Location = new Point(44, 227);
             label6.Name = "label6";
             label6.Size = new Size(31, 16);
             label6.TabIndex = 11;
@@ -118,7 +131,7 @@
             // cmboxTipo
             // 
             cmboxTipo.FormattingEnabled = true;
-            cmboxTipo.Location = new Point(145, 268);
+            cmboxTipo.Location = new Point(146, 220);
             cmboxTipo.Name = "cmboxTipo";
             cmboxTipo.Size = new Size(264, 23);
             cmboxTipo.TabIndex = 10;
@@ -137,20 +150,13 @@
             btnCrear.FlatAppearance.BorderSize = 3;
             btnCrear.FlatStyle = FlatStyle.Popup;
             btnCrear.Font = new Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btnCrear.Location = new Point(167, 341);
+            btnCrear.Location = new Point(168, 293);
             btnCrear.Name = "btnCrear";
             btnCrear.Size = new Size(154, 35);
             btnCrear.TabIndex = 8;
             btnCrear.Text = "CREAR";
             btnCrear.UseVisualStyleBackColor = false;
             btnCrear.Click += btnCrear_Click;
-            // 
-            // txtNroCuenta
-            // 
-            txtNroCuenta.Location = new Point(146, 148);
-            txtNroCuenta.Name = "txtNroCuenta";
-            txtNroCuenta.Size = new Size(263, 23);
-            txtNroCuenta.TabIndex = 7;
             // 
             // label5
             // 
@@ -172,16 +178,6 @@
             label2.TabIndex = 1;
             label2.Text = "Cliente";
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(43, 155);
-            label3.Name = "label3";
-            label3.Size = new Size(90, 16);
-            label3.TabIndex = 2;
-            label3.Text = "Nro de Cuenta";
-            // 
             // btnVolver
             // 
             btnVolver.BackColor = Color.MistyRose;
@@ -196,23 +192,6 @@
             btnVolver.Text = "VOLVER";
             btnVolver.UseVisualStyleBackColor = false;
             btnVolver.Click += btnVolver_Click;
-            // 
-            // txtSaldo
-            // 
-            txtSaldo.Location = new Point(145, 205);
-            txtSaldo.Name = "txtSaldo";
-            txtSaldo.Size = new Size(263, 23);
-            txtSaldo.TabIndex = 13;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(43, 205);
-            label4.Name = "label4";
-            label4.Size = new Size(40, 16);
-            label4.TabIndex = 14;
-            label4.Text = "Saldo";
             // 
             // AltaCtaBancaria
             // 
@@ -242,10 +221,8 @@
         private Label label1;
         private GroupBox groupBox2;
         private Button btnCrear;
-        private TextBox txtNroCuenta;
         private Label label5;
         private Label label2;
-        private Label label3;
         private Label label6;
         private ComboBox cmboxTipo;
         private ComboBox cmboxCliente;

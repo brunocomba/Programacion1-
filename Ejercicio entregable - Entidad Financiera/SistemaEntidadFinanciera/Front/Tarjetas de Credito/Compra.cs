@@ -25,6 +25,7 @@ namespace Front
         {
             cmboxTitular.Items.AddRange(principal.ObtenerClientesActivos().ToArray());
             var compras = principal.Compras();
+
         }
 
         private void cmboxTitular_SelectedIndexChanged(object sender, EventArgs e)
@@ -41,13 +42,14 @@ namespace Front
         {
             Cliente titular = (Cliente)cmboxTitular.SelectedItem;
             Tarjeta_Credito tarjeta = (Tarjeta_Credito)cmboxNroTarjeta.SelectedItem;
+            DateTime fecha = dateTimePicker1.Value;
 
             var confir = MessageBox.Show($"Seguro desea realizar la siguiente compra?\n\nCompra: {txtDetalle.Text}\nPrecio: {txtPrecio.Text}\n\nTitular tarjeta: {titular.Nombre} {titular.Apellido}\nDNI: {titular.DNI}\nNro tarjeta: {tarjeta.NroTarjeta}\n", "CONFIRMAR",
                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 
             if (confir == DialogResult.OK)
             {
-                principal.RealizarCompraConTarjeta(tarjeta, decimal.Parse(txtPrecio.Text), txtDetalle.Text);
+                principal.RealizarCompraConTarjeta(tarjeta, decimal.Parse(txtPrecio.Text), txtDetalle.Text, fecha.Date);
 
                 MessageBox.Show($"La compra fue realizado con exito.\n\nEl saldo actual de la tarjeta: {tarjeta.NroTarjeta} es de: ${tarjeta.SaldoDisponible}");
                 txtDetalle.Clear();

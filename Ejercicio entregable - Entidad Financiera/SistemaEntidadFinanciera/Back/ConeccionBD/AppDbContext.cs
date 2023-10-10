@@ -13,7 +13,7 @@ namespace Back.ConeccionBD
         // coneccion base de datos sql
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server = LAPTOP-64KVEN22; database = EntidadFinancieraBD2; trusted_connection = true; Encrypt = False");
+            optionsBuilder.UseSqlServer("server = BR-PC; database = EntidadFinancieraBD; trusted_connection = true; Encrypt = False");
         }
     }
 }

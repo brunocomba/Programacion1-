@@ -143,7 +143,14 @@ namespace Front.INICIO
         private void btnResumen_Click(object sender, EventArgs e)
         {
             Resumen resumen = new Resumen();
-            resumen.Show(); 
+            resumen.Show();
+            this.Hide();
+        }
+
+        private void btnResumenCompras_Click(object sender, EventArgs e)
+        {
+            ResumenCompras resumenCompras = new ResumenCompras();
+            resumenCompras.Show();  
             this.Hide();
         }
     }

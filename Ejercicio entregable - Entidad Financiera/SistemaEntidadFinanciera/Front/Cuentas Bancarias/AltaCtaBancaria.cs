@@ -42,13 +42,13 @@ namespace Front
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            var confir = MessageBox.Show($"Seguro desea crear esta nueva Cuenta Bancaria?\nCliente: {cmboxCliente.SelectedItem}\nNro de cuenta: {txtNroCuenta.Text}\nSaldo: {txtSaldo.Text}\nTipo: {cmboxTipo.SelectedItem}", "NUEVA CUENTA BANCARIA",
+            var confir = MessageBox.Show($"Seguro desea crear esta nueva Cuenta Bancaria?\nCliente: {cmboxCliente.SelectedItem}\nSaldo: {txtSaldo.Text}\nTipo: {cmboxTipo.SelectedItem}", "NUEVA CUENTA BANCARIA",
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (confir == DialogResult.OK)
             {
-                principal.CrearCuentaBancaria((Cliente)cmboxCliente.SelectedItem,  decimal.Parse(txtSaldo.Text),
+                principal.CrearCuentaBancaria((Cliente)cmboxCliente.SelectedItem, decimal.Parse(txtSaldo.Text),
                     (TipoDeCuenta)Enum.Parse(typeof(TipoDeCuenta), cmboxTipo.SelectedItem.ToString()));
-                MessageBox.Show($"La cuenta bancaria numero: {txtNroCuenta.Text} se creo con exito! ");
+                MessageBox.Show($"La cuenta bancaria numero al cliente {cmboxCliente.Text} se creo con exito ");
             }
             else
             {

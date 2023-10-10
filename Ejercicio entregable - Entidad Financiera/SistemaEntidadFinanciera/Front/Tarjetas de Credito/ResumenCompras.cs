@@ -1,4 +1,5 @@
 ﻿using Back.Clases;
+using Front.INICIO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -43,6 +44,13 @@ namespace Front.Tarjetas_de_Credito
         {
             cmboxTitular.Items.AddRange(principal.ObtenerClientesActivos().ToArray());
 
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            this.Hide();
         }
     }
 }

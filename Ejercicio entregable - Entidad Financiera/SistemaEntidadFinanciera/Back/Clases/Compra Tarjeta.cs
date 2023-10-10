@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +13,7 @@ namespace Back.Clases
         public Tarjeta_Credito Tarjeta { get; set; }
         public string Detalle { get; set; }
         public decimal Precio { get; set; }
+        public DateTime Fecha { get; set; }
 
     }
 }

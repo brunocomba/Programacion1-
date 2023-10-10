@@ -51,6 +51,7 @@
             btnResumen = new Button();
             btnListaTarjetas = new Button();
             btnAltaTarjeta = new Button();
+            btnResumenCompras = new Button();
             groupBox2 = new GroupBox();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -288,6 +289,7 @@
             // 
             panelTarjetaCredit.BackColor = Color.LightYellow;
             panelTarjetaCredit.BorderStyle = BorderStyle.FixedSingle;
+            panelTarjetaCredit.Controls.Add(btnResumenCompras);
             panelTarjetaCredit.Controls.Add(btnCompraTarjeta);
             panelTarjetaCredit.Controls.Add(btnPagarTarjta);
             panelTarjetaCredit.Controls.Add(btnResumen);
@@ -295,7 +297,7 @@
             panelTarjetaCredit.Controls.Add(btnAltaTarjeta);
             panelTarjetaCredit.Location = new Point(587, 145);
             panelTarjetaCredit.Name = "panelTarjetaCredit";
-            panelTarjetaCredit.Size = new Size(154, 238);
+            panelTarjetaCredit.Size = new Size(154, 289);
             panelTarjetaCredit.TabIndex = 13;
             panelTarjetaCredit.Visible = false;
             // 
@@ -374,6 +376,21 @@
             btnAltaTarjeta.UseVisualStyleBackColor = false;
             btnAltaTarjeta.Click += btnAltaTarjeta_Click;
             // 
+            // btnResumenCompras
+            // 
+            btnResumenCompras.BackColor = Color.LightYellow;
+            btnResumenCompras.Cursor = Cursors.Hand;
+            btnResumenCompras.FlatAppearance.BorderSize = 3;
+            btnResumenCompras.FlatStyle = FlatStyle.Popup;
+            btnResumenCompras.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btnResumenCompras.Location = new Point(-1, 236);
+            btnResumenCompras.Name = "btnResumenCompras";
+            btnResumenCompras.Size = new Size(154, 52);
+            btnResumenCompras.TabIndex = 16;
+            btnResumenCompras.Text = "Resumen compras realizadas";
+            btnResumenCompras.UseVisualStyleBackColor = false;
+            btnResumenCompras.Click += btnResumenCompras_Click;
+            // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -422,5 +439,6 @@
         private Button btnResumen;
         private Button btnCompraTarjeta;
         private Button btnPagarTarjta;
+        private Button btnResumenCompras;
     }
 }
